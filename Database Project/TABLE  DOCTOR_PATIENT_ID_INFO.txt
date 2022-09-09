@@ -1,0 +1,19 @@
+create table DOCTOR_PATIENT_ID_INFO(
+DP_ID Number(5) constraint DP_ID primary key,
+D_ID Number(5),
+p_ID Number(5)
+);
+desc DOCTOR_PATIENT_ID_INFO;
+drop table DOCTORS_PATIENT_ID-INFO;
+
+insert into DOCTOR_PATIENT_ID_INFO  values (1,11001,22001);
+insert into DOCTOR_PATIENT_ID_INFO  values (2,11002,22002);
+insert into DOCTOR_PATIENT_ID_INFO  values (3,11003,22003);
+insert into DOCTOR_PATIENT_ID_INFO  values (4,11004,22004);
+insert into DOCTOR_PATIENT_ID_INFO  values (5,11005,22005);
+insert into DOCTOR_PATIENT_ID_INFO  values (6,11006,22006);
+insert into DOCTOR_PATIENT_ID_INFO  values (7,11007,22007);
+insert into DOCTOR_PATIENT_ID_INFO  values (8,11008,22008);
+insert into DOCTOR_PATIENT_ID_INFO  values (9,11009,22009);
+insert into DOCTOR_PATIENT_ID_INFO  values (10,11010,22010);
+select * from DOCTOR_PATIENT_ID_INFO;

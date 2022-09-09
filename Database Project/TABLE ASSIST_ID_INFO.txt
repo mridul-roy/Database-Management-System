@@ -1,0 +1,20 @@
+create table ASSIST_ID_INFO(
+DN_ID Number(5) constraint DN_ID primary key,
+D_ID Number(5),
+N_ID Number(5)
+);
+desc ASSIST_ID_INFO;
+drop table ASSIST_ID_INFO;
+
+
+insert into ASSIST_ID_INFO  values (1,11001,33001);
+insert into ASSIST_ID_INFO  values (2,11002,33002);
+insert into ASSIST_ID_INFO  values (3,11003,33003);
+insert into ASSIST_ID_INFO  values (4,11004,33004);
+insert into ASSIST_ID_INFO  values (5,11005,33005);
+insert into ASSIST_ID_INFO  values (6,11006,33006);
+insert into ASSIST_ID_INFO  values (7,11007,33007);
+insert into ASSIST_ID_INFO  values (8,11008,33008);
+insert into ASSIST_ID_INFO  values (9,11009,33009);
+insert into ASSIST_ID_INFO  values (10,11010,33010);
+select * from ASSIST_ID_INFO;

@@ -1,0 +1,25 @@
+Create table DOCTOR_INFO(
+D_id Number(8) constraint D_ID primary key,
+D_NAME Varchar2(40),
+D_Phone Number(15),
+D_e_mali Varchar2(70),
+Address Varchar2(100),
+Qualification Varchar2(100),
+Department Varchar2(35)
+)
+desc Doctor_info
+
+select *from Doctor_INFO
+
+drop table doctor
+
+insert into Doctor_INFO values (11001, 'DR. ASIF AKRAM',01711000113,'habibur01@gmail.com','Kuril_Dhaka','MBBS_MS(Ortho)','Cardiology')
+insert into Doctor_INFO values (11002, 'DR. PARTHO BARUA',01922352564,'partho12@gmail.com','Uttara_Dhaka','MBBS_MS(Ortho)','Cardiology')
+insert into Doctor_INFO values (11003, 'DR. FARHANA NASRINE',01613256783,'farhana@gmail.com','Badda_Dhaka','MBBS. DMU. ADMU','Sonologist')
+insert into Doctor_INFO values (11004, 'DR. MITHILA JAMAN',01713243321,'mithilajaman@gmail.com','Gulshan_Dhaka','MBBS. FCPS(Medicine)','Neurology')
+insert into Doctor_INFO values (11005, 'DR. DURJOY GHOSH',01912345678,'durjoy001@gmail.com','Azimpur_Dhaka','MBBS. FCPS(Medicine)','Neurology')
+insert into Doctor_INFO values (11006, 'DR. AFROZA JAHAN',01722145673,'drafroza@gmail.com','Gabtali_Bogura','MBBS, MCPS, DCH','CHILD/PEDIATRIC')
+insert into Doctor_INFO values (11007, 'DR. TAHSAN KHAN',01711000166,'tahsankhan@gmail.com','Sonatala_Bogura','MSC In Nutrition And Food Science','NUTRITIONIST')
+insert into Doctor_INFO values (11008, 'DR. DILRUBA KHANOM',01934567891,'dilruba@gmail.com','Kuril_Dhaka','MBBS_MS(Ortho)','Cardiology')
+insert into Doctor_INFO values (11009, 'DR. ARIF HASAN',01511000113,'arif12@gmail.com','Hathazari_Chattogram','BSC (Honus),  MSC (Food & Nutrition)','Nutritionist')
+insert into Doctor_INFO values (11010, 'DR. SARIFUL ISLAM',01611045673,'SARIFUL@gmail.com','Mirpur_Dhaka','MBBS_MS(Ortho)','Orthopedics')

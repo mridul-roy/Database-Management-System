@@ -1,0 +1,18 @@
+create table SUBSISTENCE_ID_INFO(
+PR_ID Number(5) constraint PR_ID primary key,
+P_ID Number(5),
+R_ID Number(5)
+);
+desc SUBSISTENCE_ID_INFO;
+drop table SUBSISTENCE_ID_INFO;
+
+insert into SUBSISTENCE_ID_INFO  values (1,22001,55001);
+insert into SUBSISTENCE_ID_INFO  values (2,22002,55002);
+insert into SUBSISTENCE_ID_INFO  values (3,22003,55003);
+insert into SUBSISTENCE_ID_INFO  values (4,22004,55004);
+insert into SUBSISTENCE_ID_INFO  values (5,22005,55005);
+insert into SUBSISTENCE_ID_INFO  values (6,22006,55006);
+insert into SUBSISTENCE_ID_INFO  values (7,22007,55007);
+insert into SUBSISTENCE_ID_INFO  values (8,22008,55008);
+insert into SUBSISTENCE_ID_INFO  values (9,22009,55009);
+insert into SUBSISTENCE_ID_INFO  values (10,22010,55010);

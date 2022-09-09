@@ -1,0 +1,26 @@
+Create table EMPLOYEE_INFO(
+E_ID Number(5) constraint N_ID primary key,
+E_PHONE Number(13),
+E_NAME Varchar2(40) NOT NULL,
+E_Department Varchar2(45) NOT NULL,
+E_post Varchar2(50) NOT NULL
+)
+
+desc EMPLOYEE_INFO
+
+select *from EMPLOYEE_INFO
+
+drop table EMPLOYEE_INFO
+
+
+insert into EMPLOYEE_INFO values (44001,01313000113,'Jamal','Administration','Manager')
+insert into EMPLOYEE_INFO values (44002,01313000114,'Hasan','Administration','Assistant_Manager')
+insert into EMPLOYEE_INFO values (44003,01313000115,'Safik','Administration','Manager')
+insert into EMPLOYEE_INFO values (44004,01313000116,'Sakib','Tacnical_Support','Technician')
+insert into EMPLOYEE_INFO values (44005,01313000117,'Amit','Tacnical_Support','Assistant_Technician')
+insert into EMPLOYEE_INFO values (44006,01313000118,'Sagor','Reception','Receptionist')
+insert into EMPLOYEE_INFO values (44007,01313000119,'Riyed','Reception','Receptionist')
+insert into EMPLOYEE_INFO values (44008,01313000120,'Simanto','Marketing','C.A')
+insert into EMPLOYEE_INFO values (44009,01313000121,'Raihan','Administration','Manager')
+insert into EMPLOYEE_INFO values (44010,01313000122,'Nahid','Security','Watchman')
+

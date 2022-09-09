@@ -1,0 +1,20 @@
+Create table NURSE_INFO(
+N_ID Number(5) constraint N_ID primary key,
+N_NAME Varchar2(40) NOT NULL,
+N_EMAIL Varchar2(45) NOT NULL,
+N_PHONE Number(13),
+N_ADDRESS Varchar2(50) NOT NULL
+)
+desc NURSE_INFO;
+drop table NURSE_INFO;
+select * from NURSE_INFO
+insert into NURSE_INFO values (33001, 'FARYA TASNIM','faryatasnim@nurse.pdc',01710000001,'BASHUNDHARA_D_BLOCK_DHAKA');
+insert into NURSE_INFO values (33002, 'AHONA JAMAN','ahonajaman@nurse.pdc',01710000002,'KURIL , DHAKA');
+insert into NURSE_INFO values (33003, 'MIM HAQUE','haquemim@nurse.pdc',01910000001,'BASHUNDHARA A BLOCK , DHAKA');
+insert into NURSE_INFO values (33004, 'MEHJABIN SHILA','mehjabinshila@nurse.pdc',01910000002,'GULSAHN 2, DHAKA');
+insert into NURSE_INFO values (33005, 'NILA RAHMAN','rahmannila@nurse.pdc',01810000001,'MERUL BADDA, DHAKA');
+insert into NURSE_INFO values (33006, 'DIPA BARUA','dipabarua@nurse.pdc',01810000002,'KALACHANDPUR, KURIL, DHAKA');
+insert into NURSE_INFO values (33007, 'SONIA AKHTAR','soniaakhtar@nurse.pdc',01610000001,'AIRPORT ROAD, DHAKA');
+insert into NURSE_INFO values (33008, 'NIAROBI KHAN','khanniarobi@nurse.pdc',01610000002,'GULSHAN 2, DHAKA');
+insert into NURSE_INFO values (33009, 'SHERYA GHOSHAL','sheryaghoshal@nurse.pdc',01410000001,'BASHUNDHARA C BLOCK , DHAKA');
+insert into NURSE_INFO values (33010, 'MONALY THAGORE','thagoremonaly@nurse.pdc',01310000001,'NORTH BADDA , DHAKA');

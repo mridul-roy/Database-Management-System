@@ -1,0 +1,23 @@
+create table AID_ID_INFO(
+NP_ID Number(5) constraint NP_ID primary key,
+N_ID Number(5),
+P_ID Number(5)
+);
+desc AID_ID_INFO;
+drop table AID_ID_INFO;
+
+
+insert into AID_ID_INFO  values (1,33001,22001);
+insert into AID_ID_INFO  values (2,33002,22002);
+insert into AID_ID_INFO  values (3,33003,22003);
+insert into AID_ID_INFO  values (4,33004,22004);
+insert into AID_ID_INFO  values (5,33005,22005);
+insert into AID_ID_INFO  values (6,33006,22006);
+insert into AID_ID_INFO  values (7,33007,22007);
+insert into AID_ID_INFO  values (8,33008,22008);
+insert into AID_ID_INFO  values (9,33009,22009);
+insert into AID_ID_INFO  values (10,33010,22010);
+
+select * from AID_ID_INFO;
+
+DROP TABLE AID_ID_INFO

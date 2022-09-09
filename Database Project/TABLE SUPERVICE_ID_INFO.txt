@@ -1,0 +1,22 @@
+create table SUPERVICE_ID_INFO(
+ER_ID Number(5) constraint ER_ID primary key,
+E_ID Number(5),
+R_ID Number(5)
+);
+
+desc SUPERVICE_ID_INFO;
+
+drop table SUBSISTENCE_ID_INFO;
+
+insert into SUPERVICE_ID_INFO  values (1,44001,55001);
+insert into SUPERVICE_ID_INFO  values (2,44002,55002);
+insert into SUPERVICE_ID_INFO  values (3,44003,55003);
+insert into SUPERVICE_ID_INFO  values (4,44004,55004);
+insert into SUPERVICE_ID_INFO  values (5,44005,55005);
+insert into SUPERVICE_ID_INFO  values (6,44006,55006);
+insert into SUPERVICE_ID_INFO  values (7,44007,55007);
+insert into SUPERVICE_ID_INFO  values (8,44008,55008);
+insert into SUPERVICE_ID_INFO  values (9,44009,55009);
+insert into SUPERVICE_ID_INFO  values (10,44010,55010);
+
+select * from SUPERVICE_ID_INFO;
